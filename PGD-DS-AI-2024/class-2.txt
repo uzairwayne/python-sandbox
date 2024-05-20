@@ -1,0 +1,3 @@
+two types of programming
+1- static (no one can change, defined by coder)
+2- dynamic (user defined)

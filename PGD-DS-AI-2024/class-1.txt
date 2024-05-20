@@ -1,0 +1,36 @@
+create accounts on
+kaggle
+github
+
+visit pyton.org
+
+anconda (package manager)
+goggle colab (server based pacakge manager on google)
+jupyter notebook - same as colab
+jupyter lab - its new but similar to notebook
+
+jupyter and colab also have vs code extensions
+
+python file save with .py
+jupyter file save with .ipynb
+
+data types
+1- string
+2- integer
+3- boolean
+4- float
+
+two types of errors
+1- logical
+2- syntax
+
+to find a type of a variable use type() e.g. type("a") = str
+
+variable assignations
+var1  = 1
+var2 = 2
+OR
+var1, var2 = 1, 2
+
+comments
+# this is a comment
