@@ -14,6 +14,8 @@ beautifulsoup4=4.12.2=py312h06a4308_0
 blas=1.0=mkl
 bleach=4.1.0=pyhd3eb1b0_0
 bottleneck=1.3.7=py312ha883a20_0
+brotli=1.0.9=h5eee18b_8
+brotli-bin=1.0.9=h5eee18b_8
 brotli-python=1.0.9=py312h6a678d5_8
 bzip2=1.0.8=h5eee18b_6
 ca-certificates=2024.3.11=h06a4308_0
@@ -21,6 +23,8 @@ certifi=2024.6.2=py312h06a4308_0
 cffi=1.16.0=py312h5eee18b_1
 charset-normalizer=2.0.4=pyhd3eb1b0_0
 comm=0.2.1=py312h06a4308_0
+contourpy=1.2.0=py312hdb19cb5_0
+cycler=0.11.0=pyhd3eb1b0_0
 cyrus-sasl=2.1.28=h52b45da_1
 dbus=1.13.18=hb2f20db_0
 debugpy=1.6.7=py312h6a678d5_0
@@ -30,6 +34,7 @@ et_xmlfile=1.1.0=py312h06a4308_1
 executing=0.8.3=pyhd3eb1b0_0
 expat=2.6.2=h6a678d5_0
 fontconfig=2.14.1=h4c34cd2_2
+fonttools=4.51.0=py312h5eee18b_0
 freetype=2.12.1=h4a9f257_0
 glib=2.78.4=h6a678d5_0
 glib-tools=2.78.4=h6a678d5_0
@@ -59,11 +64,18 @@ jupyterlab=4.0.11=py312h06a4308_0
 jupyterlab_pygments=0.1.2=py_0
 jupyterlab_server=2.25.1=py312h06a4308_0
 jupyterlab_widgets=3.0.10=py312h06a4308_0
+kiwisolver=1.4.4=py312h6a678d5_0
 krb5=1.20.1=h143b758_1
+lcms2=2.12=h3be6417_0
 ld_impl_linux-64=2.38=h1181459_1
+lerc=3.0=h295c915_0
+libbrotlicommon=1.0.9=h5eee18b_8
+libbrotlidec=1.0.9=h5eee18b_8
+libbrotlienc=1.0.9=h5eee18b_8
 libclang=14.0.6=default_hc6dbbc7_1
 libclang13=14.0.6=default_he11475f_1
 libcups=2.4.2=h2d74bed_1
+libdeflate=1.17=h5eee18b_1
 libedit=3.1.20230828=h5eee18b_0
 libffi=3.4.4=h6a678d5_1
 libgcc-ng=11.2.0=h1234567_1
@@ -75,12 +87,16 @@ libpng=1.6.39=h5eee18b_0
 libpq=12.17=hdbd6064_0
 libsodium=1.0.18=h7b6447c_0
 libstdcxx-ng=11.2.0=h1234567_1
+libtiff=4.5.1=h6a678d5_0
 libuuid=1.41.5=h5eee18b_0
+libwebp-base=1.3.2=h5eee18b_0
 libxcb=1.15=h7f8727e_0
 libxkbcommon=1.0.1=h5eee18b_1
 libxml2=2.10.4=hfdd30dd_2
 lz4-c=1.9.4=h6a678d5_1
 markupsafe=2.1.3=py312h5eee18b_0
+matplotlib=3.8.4=py312h06a4308_0
+matplotlib-base=3.8.4=py312h526ad5a_0
 matplotlib-inline=0.1.6=py312h06a4308_0
 mistune=2.0.4=py312h06a4308_0
 mkl=2023.1.0=h213fc3f_46344
@@ -98,6 +114,7 @@ notebook-shim=0.2.3=py312h06a4308_0
 numexpr=2.8.7=py312hf827012_0
 numpy=1.26.4=py312hc5e2394_0
 numpy-base=1.26.4=py312h0da6c21_0
+openjpeg=2.4.0=h3ad879b_0
 openpyxl=3.1.2=py312h5eee18b_0
 openssl=3.0.14=h5eee18b_0
 overrides=7.4.0=py312h06a4308_0
@@ -107,6 +124,7 @@ pandocfilters=1.5.0=pyhd3eb1b0_0
 parso=0.8.3=pyhd3eb1b0_0
 pcre2=10.42=hebb0a14_1
 pexpect=4.8.0=pyhd3eb1b0_3
+pillow=10.3.0=py312h5eee18b_0
 pip=24.0=py312h06a4308_0
 platformdirs=3.10.0=py312h06a4308_0
 ply=3.11=py312h06a4308_1
@@ -118,6 +136,7 @@ ptyprocess=0.7.0=pyhd3eb1b0_2
 pure_eval=0.2.2=pyhd3eb1b0_0
 pycparser=2.21=pyhd3eb1b0_0
 pygments=2.15.1=py312h06a4308_1
+pyparsing=3.0.9=py312h06a4308_0
 pyqt=5.15.10=py312h6a678d5_0
 pyqt5-sip=12.13.0=py312h5eee18b_0
 pysocks=1.7.1=py312h06a4308_0
@@ -155,6 +174,7 @@ traitlets=5.7.1=py312h06a4308_0
 typing-extensions=4.11.0=py312h06a4308_0
 typing_extensions=4.11.0=py312h06a4308_0
 tzdata=2024a=h04d1e81_0
+unicodedata2=15.1.0=py312h5eee18b_0
 urllib3=2.2.1=py312h06a4308_0
 wcwidth=0.2.5=pyhd3eb1b0_0
 webencodings=0.5.1=py312h06a4308_2
