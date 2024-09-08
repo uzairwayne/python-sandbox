@@ -15,7 +15,8 @@ RUN pip install --no-cache-dir \
     pandas \
     matplotlib \
     scikit-learn \
-    firebase_admin
+    firebase_admin \
+    uuid
 
 # Set the command to start Jupyter Notebook
 CMD ["start-notebook.sh"]
