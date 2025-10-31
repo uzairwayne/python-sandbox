@@ -1,5 +1,5 @@
-# Java Sandbox
+# Python Sandbox
 
 ```
-Sandbox for Java based experimentation projects
+Sandbox for Python based experimentation projects
 ```
